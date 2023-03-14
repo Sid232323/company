@@ -1,0 +1,382 @@
+header
+	min-height: 145px
+	background-color: #2F343A
+	.block
+		display: flex
+		align-items: center
+		height: 45px
+		background-color: #C8A35F
+		a
+			display: inline
+			padding: 0
+			text-decoration: none
+			font-family: 'Roboto' 
+			font-style: normal 
+			font-weight: 400 
+			font-size: 12px 
+			line-height: 14px 
+			text-align: center 
+			color: #FFFFFF
+	.header
+		margin-top: 27px
+		display: flex
+		align-items: center
+		&_block
+			display: flex
+			align-items: center
+			&_logo
+				width: 160px
+				height: 46px
+			&_line
+				width: 0.5px
+				height: 46px			
+				background-color: #F2F2F2
+				margin-left: 30px
+			&_placeholder
+				margin-left: 30px
+				a
+					text-decoration: none
+					.placemark
+						width: 25px
+						height: 25px
+					.office
+						margin-left: 10px
+						font-family: 'Roboto' 
+						font-style: normal 
+						font-weight: 400 
+						font-size: 14px 
+						line-height: 16px 
+						letter-spacing: 0.05em 
+						color: #FFFFFF
+						&:hover
+							color: #C8A35F
+		nav			 
+			a
+				text-decoration: none
+				margin-left: 30px
+				font-family: 'Roboto' 
+				font-style: normal 
+				font-weight: 400 
+				font-size: 14px 
+				line-height: 16px 
+				letter-spacing: 0.05em 
+				text-transform: uppercase 
+				color: #FFFFFF
+				transition: 0.2s all
+				&:hover
+					color: #C8A35F
+.truck
+	min-height: 620px
+	background: url("../img/background/truck.png") center (center/cover) no-repeat
+	&_text
+		margin-top: 155px
+		border: 1px solid #C8A35F
+		width: 920px
+		height: 245px
+		padding: 45px 72px
+		h1
+			font-family: 'Roboto' 
+			font-style: normal 
+			font-weight: 700 
+			font-size: 64px 
+			line-height: 75px 
+			text-align: center
+			text-transform: uppercase
+			color: #fff
+		span
+			display: flex
+			font-family: 'Roboto' 
+			font-style: normal 
+			font-weight: 400 
+			font-size: 18px
+			text-align: center 
+			color: #fff
+.service
+	min-height: 561px
+	background: url(../img/background/service.png) center (center/cover) no-repeat
+	&_text
+		display: flex
+		flex-wrap: wrap
+		margin-top: 120px
+		.line
+			background-color: #C8A35F
+			width: 90px
+			height: 6px
+		h2
+			margin-top: 40px
+			font-family: 'Roboto'
+			font-style: normal
+			font-weight: 700
+			font-size: 40px
+			text-transform: uppercase
+			color: #FFFFFF
+			height: 86px
+		span
+			margin-top: 30px
+			font-family: 'Roboto'
+			font-style: normal
+			font-weight: 400
+			font-size: 18px
+			color: #FFFFFF
+		&_about
+			margin-top: 50px
+			width: 220px
+			height: 55px
+			background-color: #C8A35F
+			font-family: 'Roboto'
+			font-style: normal
+			font-weight: 500
+			font-size: 16px
+			text-align: center
+			text-transform: uppercase
+			color: #fff
+			border: none
+			transition: 0.3s all
+			&:hover
+				background-color: #C8A35Fbd
+				color: #ffffff9d
+	&_truck
+		display: flex
+		align-items: stretch
+		margin-top: 166px
+		min-height: 285px
+	&_slider
+		margin-top: 156px
+		a
+			display: flex
+			flex-wrap: nowrap
+			margin-left: 50px
+			text-decoration: none
+			&:last-child
+				margin-top: 245px
+			img
+				width: 65px
+				margin-left: 31px
+				&:nth-child(1)
+					margin-left: 0px
+			span
+				font-family: 'Roboto' 
+				font-style: normal 
+				font-weight: 500 
+				font-size: 16px 
+				line-height: 25px 
+				text-align: center 
+				letter-spacing: 0.1em 
+				text-transform: uppercase 
+				color: #C8A35F
+				&:nth-child(2)					
+					margin-left: 31px
+.all-serv
+	min-height: 687px
+	&_block
+		padding: 0
+		margin-top: 120px
+		.line
+			background-color: #C8A35F
+			width: 90px
+			height: 6px
+		h2
+			margin-top: 40px
+			font-family: 'Roboto' 
+			font-style: normal 
+			font-weight: 700 
+			font-size: 40px 			 
+			text-transform: uppercase 
+			color: #FFFFFF 			
+		&_blocks
+			display: flex
+			flex-wrap: wrap
+			justify-content: space-between
+			margin-top: 60px
+			height: 361px
+			width: 1107px
+			&_fly
+				display: flex
+				flex-direction: column
+				justify-content: center
+				align-items: center
+				background-color: #393F47
+				width: 276px
+				height: 180px
+				padding: 1px
+				transition: 0.4s all
+				cursor: pointer
+				&:hover
+					background-color: #C8A35F
+					.circle
+						background-color: #fff
+				.circle
+					display: flex
+					justify-content: center
+					align-items: center
+					width: 70px
+					height: 70px
+					background-color: #393F47
+					border-radius: 100%
+					transition: 0.4s all
+					cursor: pointer
+					img
+						width: 30px
+						height: 30px
+						transition: 0.4s all
+						cursor: pointer
+				span
+					margin-top: 23px
+					font-family: 'Roboto' 
+					font-style: normal 
+					font-weight: 700 
+					font-size: 18px
+					text-align: center 
+					text-transform: uppercase 
+					color: #FFFFFF 
+					transition: 0.4s all
+					cursor: pointer
+.about
+	min-height: 659px
+	position: relative
+	&_square
+		position: absolute
+		width: 410px	
+		height: 480px
+		background-color: #393F47
+		left: 580px
+		top: 57px
+		z-index: -1
+	&_text		
+		margin-top: 137px
+		.line
+			background-color: #C8A35F
+			width: 90px
+			height: 6px
+		h2
+			margin-top: 40px
+			font-family: 'Roboto' 
+			font-style: normal 
+			font-weight: 700 
+			font-size: 40px
+			text-transform: uppercase 
+			color: #FFFFFF 
+		span
+			margin-top: 30px
+			font-family: 'Roboto' 
+			font-style: normal 
+			font-weight: 400 
+			font-size: 16px
+			line-height: 23px
+			color: #FFFFFF 
+	&_block
+		display: flex
+		flex-wrap: wrap
+		margin-top: 137px
+		&_company
+			display: flex
+			flex-direction: column
+			justify-content: space-evenly
+			align-items: center
+			flex-wrap: wrap
+			width: 200px
+			height: 160px
+			background-color: #fff
+			border: 0.25px solid #C8A35F
+			padding: 0			
+			span
+				font-family: 'Roboto' 
+				font-style: normal 
+				font-weight: 700 
+				font-size: 64px
+				text-transform: uppercase 
+				color: #2F343A 
+				height: 59px
+				margin-bottom: 10px
+				&:nth-child(2)
+					font-family: 'Roboto' 
+					font-style: normal 
+					font-weight: 400 
+					font-size: 18px
+					text-transform: none 
+					color: #000000 
+					height: 17px
+					margin-top: 9px
+					margin-bottom: 15px
+				&:nth-child(3)
+					font-family: 'Roboto' 
+					font-style: normal 
+					font-weight: 400 
+					font-size: 12px
+					text-transform: none 
+					color: #000000 
+					height: 11px
+					margin-bottom: 25px			
+			&_img
+				width: 200px
+				height: 160px
+				background: url(../img/icons/about_truck.png) center (center/cover) no-repeat
+				border: 0.25px solid #C8A35F
+				padding: 0
+.map
+	height: 450px
+	background: url(../img/maps.png) center (center/cover) no-repeat
+footer
+	height: 161px
+	background-color: #C8A35F
+	.company
+		display: flex
+		flex-wrap: nowrap
+		margin-top: 60px
+		&_block
+			margin-left: 30px
+			&_address
+				font-family: 'Roboto' 
+				font-style: normal 
+				font-weight: 400 
+				font-size: 14px
+				color: #F2F2F2 
+				opacity: 0.8
+			&_email
+				margin-top: 10px
+				font-family: 'Roboto' 
+				font-style: normal 
+				font-weight: 400 
+				font-size: 14px 
+				line-height: 16px 
+				color: #2F343A 
+			.logo
+				width: 160px
+				height: 46px
+	.telephone
+		display: flex
+		flex-wrap: wrap
+		margin-top: 64px
+		a
+			font-family: 'Roboto' 
+			font-style: normal 
+			font-weight: 400 
+			font-size: 14px
+			text-decoration: none
+			color: #F2F2F2 
+			transition: 0.2s all
+			&:hover
+				color: #cbe3ff
+	.den
+		margin-top: 87px
+		a
+			font-family: 'Roboto' 
+			font-style: normal 
+			font-weight: 400 
+			font-size: 14px
+			text-align: right 
+			text-decoration-line: underline 
+			color: #2F343A 
+		
+
+
+					
+
+						
+						
+						
+						
+		
+					
+			
+			
